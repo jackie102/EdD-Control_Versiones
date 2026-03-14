@@ -41,3 +41,12 @@ Para cada bug, incluir en el PR:
 ├── E2-Full_Stack_Developer-Debug+Git.pdf
 └── /documentacion/    # Para las capturas de pantalla, entre otras las del debugger
 ```
+# Nuevas funcionalidades añadidas en la Fase 3
+
+- Validación de ISBN único en `addBook()`
+- Búsqueda case-insensitive en `findBookByTitle()`
+- Método `removeBook()` para eliminar libros por ISBN
+- Validación en `borrow()` y `returnBook()` para evitar estados inválidos
+- Tests unitarios para duplicados y búsqueda case-insensitive
+- Refactorización de la validación de ISBN a un método separado
+
