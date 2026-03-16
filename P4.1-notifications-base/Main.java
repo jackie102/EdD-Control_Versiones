@@ -1,8 +1,10 @@
 // Main.java - Programa principal
 public class Main {
     public static void main(String[] args) {
+        // Creamos un nuevo manager
         NotificationManager manager = new NotificationManager();
         
+      feature/correccion-sistematizada
         // Ejemplos de uso
         manager.send("email", "miau al sistema", "usuario@email.com");
         manager.send("sms", "Tu código es 3321", "+34123456789");
